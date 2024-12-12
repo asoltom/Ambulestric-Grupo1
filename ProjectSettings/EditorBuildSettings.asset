@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/[PROYECTO]/Scenes/MAIN.unity
+    guid: 99075d6dc17626c4883789c3cde6a795
+  - enabled: 1
+    path: Assets/[PROYECTO]/Scenes/Video_360.unity
+    guid: e5dab7badf837974e93843547d29f71b
+  - enabled: 1
+    path: Assets/clinic/scenes/clinic.unity
+    guid: c2eae52be3f47714a9faaf680068f759
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8687564371bf21044bd1f705301e1385, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8af3fbd2796437b48b52749948f3d99a, type: 2}
