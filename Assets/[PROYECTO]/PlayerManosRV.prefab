@@ -1389,7 +1389,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 8270855663187062767, guid: 1392f805216c47742996d4742c80721c, type: 3}
+  m_ModelPrefab: {fileID: 8910181468729594819, guid: dd128590e52774b4b97010f2c20b70c2, type: 3}
   m_ModelParent: {fileID: 8524805500522611556}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
@@ -2347,7 +2347,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 3475118261464492563, guid: 9f3369e30fbd31f4bb596b1a99babe83, type: 3}
+  m_ModelPrefab: {fileID: 7098546075441528024, guid: cbcff3716506eec4e884c6010335c686, type: 3}
   m_ModelParent: {fileID: 199218161408319087}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
@@ -6937,9 +6937,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UseOptimizedControls: 0
-  m_LeftHandMesh: {fileID: 6744467660434294800}
-  m_RightHandMesh: {fileID: 4048701347392605377}
-  m_HandMeshMaterial: {fileID: 0}
+  m_LeftHandMesh: {fileID: 8910181468729594818, guid: dd128590e52774b4b97010f2c20b70c2, type: 3}
+  m_RightHandMesh: {fileID: 7098546075441528031, guid: cbcff3716506eec4e884c6010335c686, type: 3}
+  m_HandMeshMaterial: {fileID: 2100000, guid: 582baea8d1af8a7468d7167f3e9e56af, type: 2}
   m_DrawMeshes: 1
   m_DebugDrawPrefab: {fileID: 6507399986997092475, guid: 254b742d65a15d14b9df756ae77de868, type: 3}
   m_DebugDrawJoints: 0
