@@ -175,6 +175,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1401948165896693830, guid: 5cab120980059794a8f704d6fbe29f51, type: 3}
+      propertyPath: escenaVuelta
+      value: MAIN
+      objectReference: {fileID: 0}
     - target: {fileID: 1467579574029798613, guid: 5cab120980059794a8f704d6fbe29f51, type: 3}
       propertyPath: m_Name
       value: Video360
