@@ -4,6 +4,7 @@ using TMPro;
 public class CapsuleInteraction : MonoBehaviour
 {
     public TextMeshProUGUI hpText; // Referencia al texto en el Canvas
+    public int HPsuma = 10;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -16,8 +17,8 @@ public class CapsuleInteraction : MonoBehaviour
                 int currentHP;
                 if (int.TryParse(hpText.text.Replace("HP: ", ""), out currentHP))
                 {
-                    currentHP += 10;
-                    hpText.text = "HP: " + currentHP;
+                    currentHP += HPsuma;
+                    hpText.text = "" + currentHP;
                 }
                 else
                 {

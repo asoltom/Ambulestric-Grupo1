@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Projectile
   - paciente
+  - arma
   layers:
   - Default
   - TransparentFX
