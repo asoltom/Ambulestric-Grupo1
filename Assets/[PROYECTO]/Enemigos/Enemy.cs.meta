@@ -3,7 +3,10 @@ guid: 0dbc0494784b070438b91a518c868dfe
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - scoreText: {fileID: 4098761527850788976, guid: 00352b3a310d1ee44879e5a17d97cca9, type: 3}
+  - hpText: {fileID: 3094476215890573748, guid: f5b2d91698feb864d9d0773d45739d12, type: 3}
+  - paciente: {fileID: 5654093391959697007, guid: 2723942d16f3a594e97f7363a919559f, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
