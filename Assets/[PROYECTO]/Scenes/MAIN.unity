@@ -3269,7 +3269,10 @@ PrefabInstance:
       value: PlayerManosRV
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5321291002237766161, guid: a291bcd1fb48e584eba680a686d36c17, type: 3}
+    - {fileID: 5566050922754686313, guid: a291bcd1fb48e584eba680a686d36c17, type: 3}
+    - {fileID: 3582997666385555217, guid: a291bcd1fb48e584eba680a686d36c17, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a291bcd1fb48e584eba680a686d36c17, type: 3}
