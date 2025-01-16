@@ -60,7 +60,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 32
   m_CollisionDetection: 0
 --- !u!65 &2957809951241284606
 BoxCollider:
@@ -95,11 +95,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dbc0494784b070438b91a518c868dfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 4098761527850788976, guid: 00352b3a310d1ee44879e5a17d97cca9, type: 3}
   ScoreSuma: 10
+  HPresta: 10
   movement: {x: 0, y: 0, z: 0}
-  paciente: {fileID: 5654093391959697007, guid: 2723942d16f3a594e97f7363a919559f, type: 3}
-  speed: 0.0025
+  paciente: {fileID: 5415833901748926326, guid: de81ac71d51099241a4da370132a25de, type: 3}
+  speed: 0.005
 --- !u!1001 &6092606828187223731
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -43,6 +43,7 @@ public class Enemy : MonoBehaviour
     {
         //Moverse
         enemy.transform.position = Vector3.MoveTowards(enemy.transform.position, paciente.transform.position, speed);
+        mirarPaciente();
     }
     private void OnCollisionEnter(Collision collision)
     {
