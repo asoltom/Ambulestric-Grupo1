@@ -3,8 +3,13 @@ using TMPro;
 
 public class CapsuleInteraction : MonoBehaviour
 {
-    public TextMeshProUGUI hpText; // Referencia al texto en el Canvas
+    private TextMeshProUGUI hpText; // Referencia al texto en el Canvas
     public int HPsuma = 10;
+
+    private void Start()
+    {
+        hpText = GameObject.Find("vida/labelHp/textHp").GetComponent<TextMeshProUGUI>();
+    }
 
     private void OnCollisionEnter(Collision collision)
     {

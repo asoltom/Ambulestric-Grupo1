@@ -1,10 +1,9 @@
 fileFormatVersion: 2
-guid: 0dbc0494784b070438b91a518c868dfe
+guid: bcc81aa0e44ac6141a738f282a815f7c
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - paciente: {fileID: 5415833901748926326, guid: de81ac71d51099241a4da370132a25de, type: 3}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

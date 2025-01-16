@@ -11,7 +11,7 @@ public class Summoner : MonoBehaviour
 
     public float minTiempo = 0.75f;
     public float maxTiempo = 2.0f;
-    public float speed = 1.0f;
+    private float[] fuerza_lanzada = new float[3] {0.1f, 1.5f, 3f};
 
     private void Start()
     {
@@ -23,9 +23,9 @@ public class Summoner : MonoBehaviour
         GameObject[] enemies = new GameObject[3] { prefabBlueEnemy, prefabRedEnemy, prefabYellowEnemy };
         while (true) 
         {
-            GameObject attack = Instantiate(enemies[Random.Range(0, 3)], this.transform.position + transform.right * 0.6f, this.transform.rotation);
+            GameObject attack = Instantiate(enemies[Random.Range(0, 3)], this.transform.position + transform.right * 0.1f, this.transform.rotation);
 
-            attack.GetComponent<Rigidbody>().velocity = transform.forward * speed;
+            attack.GetComponent<Rigidbody>().velocity = transform.forward * fuerza_lanzada[Random.Range(0, 3)];
             yield return new WaitForSeconds(Random.Range(minTiempo, maxTiempo));
         }
     }
